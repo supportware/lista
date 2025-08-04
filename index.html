@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Componentes para Telemedicina - Portel | Meta Reports</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="social-links">
+            <a href="https://www.facebook.com/metareports" class="social-link"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/metareports/" class="social-link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/channel/UCTRb6od-PWpcfc6cgwZ1DZw"
+              class="social-link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="mailto:lucas@excelinformatica.com" class="social-link"
+              ><i class="fas fa-envelope"></i> lucas@excelinformatica.com</a
+            >
+          </div>
+        </div>
+        <nav class="navbar">
+          <div class="logo">
+            <h2>
+              <i class="fas fa-network-wired"></i> Excel<span>
+                Informática</span
+              >
+            </h2>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#configuracoes" class="nav-link">Configurações</a></li>
+            <li><a href="#sobre" class="nav-link">Sobre o Projeto</a></li>
+            <li><a href="#contato" class="nav-link">Contato</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Componentes para Restabelecimento do Serviço de Telemedicina</h1>
+          <p>
+            Projeto de modernização dos totens de telemedicina em Portel,
+            promovido pela Meta Reports em parceria com a Secretaria de Saúde de
+            Portel.
+          </p>
+          <div class="hero-buttons">
+            <a href="#configuracoes" class="btn btn-primary"
+              >Ver Configurações</a
+            >
+            <a href="#sobre" class="btn btn-secondary">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Configurações Section -->
+    <section id="configuracoes" class="configurations">
+      <div class="container">
+        <h2 class="section-title">Configurações Disponíveis</h2>
+        <p class="section-subtitle">
+          Escolha a configuração ideal para suas necessidades
+        </p>
+
+        <div class="config-tabs">
+          <button class="tab-button active" data-tab="config-minima">
+            Configuração Mínima
+          </button>
+          <button class="tab-button" data-tab="config-128gb">
+            Config 128GB + Recomendáveis
+          </button>
+          <button class="tab-button" data-tab="config-240gb">
+            Config 240GB + Recomendáveis
+          </button>
+          <button class="tab-button" data-tab="lista-geral">Lista Geral</button>
+        </div>
+
+        <div class="tab-content">
+          <!-- Config Mínima -->
+          <div id="config-minima" class="tab-pane active">
+            <div class="config-header">
+              <h3>Configuração Mínima</h3>
+              <p>Configuração básica com componentes essenciais</p>
+            </div>
+            <div id="config-minima-components" class="components-grid"></div>
+          </div>
+          <!-- Config 128GB -->
+          <div id="config-128gb" class="tab-pane">
+            <div class="config-header">
+              <h3>Configuração 128GB + Recomendáveis</h3>
+              <p>
+                Configuração otimizada com SSD de 128GB e componentes
+                recomendados
+              </p>
+            </div>
+            <div id="config-128gb-components" class="components-grid"></div>
+          </div>
+
+          <!-- Config 240GB -->
+          <div id="config-240gb" class="tab-pane">
+            <div class="config-header">
+              <h3>Configuração 240GB + Recomendáveis</h3>
+              <p>
+                Configuração premium com SSD de 240GB e componentes recomendados
+              </p>
+            </div>
+            <div id="config-240gb-components" class="components-grid"></div>
+          </div>
+
+          <!-- Lista Geral -->
+          <div id="lista-geral" class="tab-pane">
+            <div class="config-header">
+              <h3>Lista Geral de Componentes</h3>
+              <p>Configuração completa com todos os componentes disponíveis</p>
+            </div>
+            <div id="lista-geral-components" class="components-grid"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="home" class="down">
+      <div class="container">
+        <div class="down-content">
+          <div class="down-buttons">
+            <a
+              href="//down/lista.xlsx"
+              download="lista.xlsx"
+              class="btn btn-secondary"
+              >Baixe a planilha aqui!</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Sobre o Projeto</h2>
+            <p>
+              A Meta Reports, com 14 anos de experiência em criptografia e
+              segurança de dados, desde 2018 foca na digitalização da saúde.
+              Nossa missão é proporcionar saúde a todos, mesmo onde o acesso à
+              infraestrutura médica não é possível.
+            </p>
+            <p>
+              Este projeto visa restabelecer e modernizar o serviço de
+              telemedicina em Portel através da atualização dos componentes dos
+              totens de autoatendimento, garantindo maior eficiência e
+              confiabilidade no atendimento à população.
+            </p>
+            <div class="company-info">
+              <h4>Excel Informática Soluções em T.I.</h4>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Rua 10 de Dezembro -
+                Bosque
+              </p>
+              <p><i class="fas fa-phone"></i> (91) 9 98190-1698</p>
+              <p><i class="fas fa-id-card"></i> CNPJ: 31.852.431/0001-00</p>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-placeholder">
+              <i class="fas fa-stethoscope"></i>
+              <p>Telemedicina em Portel</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>
+              <i class="fas fa-network-wired"></i> Excel<span>
+                Informática</span
+              >
+            </h3>
+            <p>
+              George Lucas OG responsável pelo suporte técnico dos totens na
+              cidade de Portel apoiando o projeto da Meta Reports:
+            </p>
+            <p>
+              Sistema de teleconferência que proporciona ao paciente uma lista
+              de médicos especialistas aptos a realizar consultas online.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Links Rápidos</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#configuracoes">Configurações</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contato</h4>
+            <p><i class="fas fa-phone"></i> (91) 98190-1698</p>
+            <p><i class="fas fa-envelope"></i> lucas@excelinformatica.com</p>
+          </div>
+          <div class="footer-section">
+            <h4>Redes Sociais</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/metareports" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/metareports/"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCTRb6od-PWpcfc6cgwZ1DZw"
+                class="social-link"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Excel Informática. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
